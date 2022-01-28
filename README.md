@@ -1,16 +1,15 @@
-# gldfixubuntu
-GLD 1.0+ Fix for Ubuntu 21.10
+# GLD 1.0+ Fix for Ubuntu 21.10
 
-sudo nano /etc/apt/apt.conf.d/01ubuntu
-
+>sudo nano /etc/apt/apt.conf.d/01ubuntu
+```
 APT
 {
 Default-Release "impish";
 };
+```
 
-
-sudo nano /etc/apt/preferences
-
+>sudo nano /etc/apt/preferences
+```
 Package: gnudatalanguage
 Pin: release n=jammy
 Pin-Priority: 995
@@ -50,9 +49,10 @@ Pin-Priority: 995
 Package: proj-data
 Pin: release n=jammy
 Pin-Priority: 995
+```
 
-
-sudo nano /etc/apt/sources.list.d/gld.sources.list
-
+>sudo nano /etc/apt/sources.list.d/gld.sources.list
+```
 deb http://archive.ubuntu.com/ubuntu jammy main restricted universe multiverse
 deb-src http://archive.ubuntu.com/ubuntu jammy main restricted universe multiverse
+```

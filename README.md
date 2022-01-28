@@ -1,5 +1,19 @@
 # GLD 1.0+ Fix for Ubuntu 21.10
 
+## Automatically
+
+Copy and paste in terminal:
+
+
+```sudo apt install wget && wget https://github.com/dogoterra/gldfixubuntu/raw/main/autofix.sh && sudo bash autofix.sh```
+
+
+
+## Manually
+
+Copy and paste in terminal step by step:
+
+
 >sudo nano /etc/apt/apt.conf.d/01ubuntu
 ```
 APT

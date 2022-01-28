@@ -1,11 +1,11 @@
-# GLD 1.0+ Fix for Ubuntu 21.10
+# GDL 1.0+ Fix Install for Ubuntu 21.10
 
 ## Automatically
 
 Copy and paste in terminal:
 
 
-```sudo apt install wget && wget https://github.com/dogoterra/gldfixubuntu/raw/main/autofix.sh && sudo bash autofix.sh```
+```sudo apt install wget && wget https://github.com/dogoterra/gdlfixubuntu/raw/main/autofix.sh && sudo bash autofix.sh```
 
 
 
@@ -65,7 +65,7 @@ Pin: release n=jammy
 Pin-Priority: 995
 ```
 
->sudo nano /etc/apt/sources.list.d/gld.sources.list
+>sudo nano /etc/apt/sources.list.d/gdl.sources.list
 ```
 deb http://archive.ubuntu.com/ubuntu jammy main restricted universe multiverse
 deb-src http://archive.ubuntu.com/ubuntu jammy main restricted universe multiverse
